@@ -1,0 +1,166 @@
+<!--
+  Code First Girls - Week 1
+
+  This exercise file gives you the basic HTML structure that you need
+  to get started with the exercises that will come up as we go through
+  the content.
+   
+  Don't worry if you get stuck, our instructors are walking around to help
+  and we will go through the answer as a group. 
+  
+  Below are the exercises to complete:
+  Exercise 1.1.1 - Change the title element in the head to display your name
+
+  Exercise 1.2.1 - Replace the title in the h1 element with your name, 
+                   add your current occupation to the website as a h2 element, 
+                   and using a p element, write an introductory paragraph about yourself. 
+
+  Exercise 1.3.1 - Add an unordered list to your page. 
+                   Your list items should be other pages of your portfolio: Home, My Top 5, Contact Me
+
+  Exercise 1.4.1 - Using anchor elements, add links the unordered list you created 
+                   in the previous exercise
+  Exercise 1.4.2 - Using the image element, add a photo of yourself underneath your introductory paragraph
+
+  Exercise 1.5.1 - Wrap your Unordered List navigation in a nav element.
+  Exercise 1.5.2 - Wrap your h1 and h2 elements within a header element Also enclose your p and img elements within a main tag.
+  Exercise 1.5.3 - Add a footer element to your page that includes two div elements:
+                   - The first should include your copyright year and name. 
+                   - The second should have a link to your social media.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+ <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css"/>  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap">
+   
+    <script src="https://kit.fontawesome.com/d4de4aa5ef.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        
+    <title>Greta Matulionyte</title>
+  
+  </head>
+
+  <body>
+    
+
+          
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+      <a class="navbar-brand" href="#">
+       
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> 
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<ul class= "navbar-nav mx-auto listss">;
+    <li class="nav-item active">
+      <a class= "nav-link" href="./index.html"> HOME</a></li>
+    <li class="nav-item">
+      <a class="nav-link" href="./top-five.html"> MY TOP 5 </a></li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contact.html"> CONTACT </a></li>
+  </ul>
+</div>
+  <form class="searching" class="form-inline">
+    <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="search">
+  </form>
+  <button class="btn btn-warning mr-sm-0" type="submit"> Look up </button>
+
+ 
+    </nav>
+  
+    <div class="mainbody">
+   
+        <header>
+          <h1 class="name">
+            GRETA MATULIONYTE
+          </h1>
+          <h2 class="name2">
+            IT Recruiter AND Proud Dog Owner 
+          </h2>
+        </header>
+      </div> 
+    
+
+
+<div class="container container-fluid">
+      <div class="row">
+        <div class="col-md-6 textauto">
+          <p>
+            Hi there! Welcome to my first-ever website. My name is Greta, I am a
+            Tech Recruiter based in Leeds. For the last 3 years, my primary focus
+            has been speaking to a number of talented developers across the UK &
+            Germany, helping them find their next career challenge and learning more about
+            the world of software development. <p>I am currently looking for a career
+            change myself and I’ve decided to give coding a go! I enjoy creating new
+            things, solving problems and continuously improving both personally and professionally. We will
+            see what the future holds for me, I am very excited about this new
+            challenge! You can see some examples of my work <a href="./top-five.html"> here. </a> </p>
+           <p> In my free time, I am most likely walking my two giant dogs, hiking or binge-watching the latest crime documentaries on Netflix. Happy to have a chat about any of these too!</p>
+          </p>
+          <p>
+           If you have any suggestions or thoughts on my work, please drop me a line on this <a href="./contact.html">form. </a> Any feedback would be much appreciated!  
+          </p>
+        </div>
+
+
+        <div class="col-md-6 picauto">
+          <div  id="carouselExampleControls"  class="carousel slide"  data-ride="carousel">
+            <div  class="carousel-inner carousel-img-item"  >
+              <div class="carousel-item active">
+                  <img  src="./images/webpic (1).jpg" class="d-block w-100" alt="Me">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/webpic (2).jpg" class="d-block w-100" alt="album">
+              </div>  
+              <div class="carousel-item">
+                <img src="./images/webpic (3).jpg" class="d-block w-100" alt="globe">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+      <div class="socialmedia">
+        <a
+          href="https://uk.linkedin.com/in/greta-matulionyte"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/gretacodes" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a href="https://www.instagram.com/gretamate/?hl=en" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+

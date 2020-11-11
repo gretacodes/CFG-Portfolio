@@ -1,0 +1,355 @@
+/*
+  Nothing to see here.
+*/
+h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: 283618;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+.navbar a {
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+}
+.name {
+  font-size: 70px;
+}
+@media only screen and (max-width: 768px) {
+  .name {
+    font-size: 45px;
+
+  }
+}
+@media only screen and (max-width: 768px) {
+  p {
+margin-left:1rem;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    font-size: 15px;
+
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .name2{
+    font-size: 25px;
+    margin-left:2rem;
+    margin-right:2rem;
+
+  }
+}
+
+h5 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+}
+.form-group {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.formstyle {
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.facebook {
+  /* padding: 20px; */
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+header {
+  margin-top: 1rem;
+}
+
+.contmargins {
+  margin-left: 3rem;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+  font-family: "Patrick Hand", cursive;
+}
+body {
+  background-image: url(../images/concrete.png);
+}
+
+.primaryBackground {
+  background-color: darkslategray;
+}
+.footer2 {
+  display: inline;
+}
+
+.name2,
+.name {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.name2 {
+  font-size: 30px;
+}
+#horizontal {
+  display: inline;
+  font-weight: bold;
+}
+
+#top5text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 15px;
+}
+
+li {
+  display: inline;
+}
+#newactive2 {
+  color: rgb(92, 53, 2);
+}
+
+.buttz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  font-size: 15px;
+}
+.buttoncomp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  font-size: 16px;
+}
+
+.newactive3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.aligncenter {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../images/concrete.png);
+  }}
+
+ 
+  .hometake {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
+    font-size: 30px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .footer3 {
+    color: rgba(211, 211, 211, 0.801);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+}
+.horizontal33 a {
+  color: rgba(211, 211, 211, 0.801);
+  font-size: 1.6rem;
+  font-family: "Patrick Hand", cursive;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.project1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 3rem;
+  color: darkslategray;
+  text-align: center;
+}
+
+.dogs {
+  padding-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.dogs__description {
+  font-size: 17.5px;
+}
+
+.img-responsive {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.recipes {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: inline-block;
+}
+.picar {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.globe {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: inline-block;
+}
+
+.searching {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.btn {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.recipebook {
+  margin: 1;
+  font-size: 17.5px;
+}
+.reciper1 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 4.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.globe {
+  margin: 1;
+  font-size: 17.5px;
+}
+
+.globepic {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 4.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.filler {
+  display: flex;
+}
+
+.test {
+  flex-grow: 1;
+}
+
+/* Footer */
+
+.aligncontainer {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.textauto {
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+
+.picauto {
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+
+  text-align: center;
+}
+
+.socialmedia i {
+  color: darkgoldenrod;
+  font-size: 45px;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socialmedia i:hover {
+  color: lightgrey;
+}
+
+.hey {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
